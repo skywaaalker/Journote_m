@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_title_ll_1"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/common_iv_back"
+        android:paddingLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/arrow_left"
+        android:tint="@color/green"
+        />
+
+    <TextView
+        android:id="@+id/common_tv_title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="日记本"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+
+        />
+
+    <ImageView
+        android:id="@+id/common_iv_menu"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ellipsis"
+        android:tint="@color/green"
+        />
+</LinearLayout>

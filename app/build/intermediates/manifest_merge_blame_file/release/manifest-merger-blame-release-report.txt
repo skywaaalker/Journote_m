@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.journote"
+4    android:versionCode="2"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:6:3-65
+11-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:6:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:7:3-77
+12-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:7:20-74
+13
+14    <application
+14-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:9:3-45:17
+15        android:allowBackup="true"
+15-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:10:5-31
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/Marz/.gradle/caches/transforms-2/files-2.1/087e42ccf76a7f9d4be9c0cf6875de43/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher_self"
+17-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:11:5-44
+18        android:label="@string/app_name"
+18-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:12:5-37
+19        android:networkSecurityConfig="@xml/network_security_config"
+19-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:13:5-65
+20        android:persistent="true"
+20-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:17:5-30
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:14:5-50
+22        android:supportsRtl="true"
+22-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:15:5-31
+23        android:theme="@style/AppTheme" >
+23-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:16:5-36
+24        <activity
+24-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:18:5-21:16
+25            android:name="com.example.journote.ui.NotificationActivity"
+25-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:18:15-54
+26            android:theme="@android:style/Theme.NoDisplay" >
+26-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:19:7-53
+27        </activity>
+28        <activity android:name="com.example.journote.ui.RegisterActivity" />
+28-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:22:5-53
+28-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:22:15-50
+29        <activity
+29-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:23:5-30:16
+30            android:name="com.example.journote.ui.LoginActivity"
+30-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:23:15-47
+31            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+31-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:24:7-63
+32            <intent-filter>
+32-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:25:7-29:23
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:26:9-61
+33-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:26:17-58
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:28:9-69
+35-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:28:19-66
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.example.journote.ui.MainActivity" />
+38-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:31:5-58
+38-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:31:15-46
+39        <activity android:name="com.example.journote.ui.UpdateJournoteActivity" />
+39-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:32:5-59
+39-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:32:15-56
+40        <activity android:name="com.example.journote.ui.AddJournoteActivity" />
+40-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:33:5-56
+40-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:33:15-53
+41        <activity android:name="com.example.journote.ui.AddJournoteActivityNote" />
+41-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:34:5-60
+41-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:34:15-57
+42        <activity android:name="com.example.journote.ui.UpdateJournoteActivityNote" />
+42-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:35:5-63
+42-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:35:15-60
+43        <activity android:name="com.example.journote.ui.MainActivityNote" />
+43-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:36:5-53
+43-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:36:15-50
+44        <activity android:name="com.example.journote.ui.DateTimePickerActivityNote" />
+44-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:37:5-63
+44-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:37:15-60
+45        <activity android:name="com.example.journote.ui.DateTimePickerActivity" />
+45-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:38:5-59
+45-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:38:15-56
+46
+47        <receiver android:name="com.example.journote.reminder.MyReceiver" >
+47-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:40:5-44:16
+47-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:40:15-50
+48            <intent-filter>
+48-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:41:7-43:23
+49                <action android:name="com.example.journote.reminder.MyReceiver" />
+49-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:42:9-75
+49-->/Users/Marz/AndroidStudioProjects/Journote2/app/src/main/AndroidManifest.xml:42:17-72
+50            </intent-filter>
+51        </receiver>
+52    </application>
+53
+54</manifest>

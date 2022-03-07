@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="163dp"
+        android:layout_gravity="center"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/datetime_picker_show"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="你选择的日期是:2019年11月11日11时11分"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/datetime_picker_add"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="确定"
+        />
+</LinearLayout>

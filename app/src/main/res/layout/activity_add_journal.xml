@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/part_common_title_2"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#ffffff"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/add_journal_tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:text="2019年11月11日"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/add_journal_et_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="标题"
+                android:textColorHint="@color/gray"
+                android:textSize="24sp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/add_journal_et_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:background="@null"
+                android:hint="开始书写"
+                android:textSize="16sp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+              />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            android:visibility="visible"
+            app:elevation="4dp"
+            app:fab_addButtonSize="normal"
+            fab:fab_addButtonColorNormal="@color/green"
+            fab:fab_labelsPosition="right">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_journal_fab_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="#24d63c"
+                app:fab_icon="@drawable/save"
+                app:fab_size="normal" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_journal_fab_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="#e41c1c"
+                app:fab_icon="@drawable/back"
+                app:fab_size="normal" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+</LinearLayout>

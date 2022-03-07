@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="1"
+        android:id="@+id/menu_label_set1"/>
+    <item android:title="2"
+        android:id="@+id/menu_label_set2"/>
+    <item android:title="3"
+        android:id="@+id/menu_label_set3"/>
+    <item android:title="4"
+        android:id="@+id/menu_label_set4"/>
+    <item android:title="5"
+        android:id="@+id/menu_label_set5"/>
+    <item android:title="取消标签"
+        android:id="@+id/menu_label_delete"/>
+</menu>

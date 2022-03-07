@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common2_title_ll"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/common2_iv_back"
+        android:paddingLeft="5dp"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/arrow_left"
+        android:tint="@color/green"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/common2_tv_title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="添加日记"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/common2_iv_noti"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/clock"
+        android:tint="@color/green"
+        android:onClick="popupMenu_noti"
+        />
+    <ImageView
+        android:id="@+id/common2_iv_label"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/label"
+        android:tint="@color/green"
+        android:onClick="popupmenu_label"/>
+
+
+</LinearLayout>
